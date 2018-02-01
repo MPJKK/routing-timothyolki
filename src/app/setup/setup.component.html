@@ -1,0 +1,11 @@
+<h1>Kirjoita pysäkin nimi</h1>
+
+<mat-form-field color="primary">
+    <input matInput="" [(ngModel)]="digitransitService.pysakki" placeholder="Stoppinimi" >
+</mat-form-field>
+
+<button mat-raised-button="" color="warn" (click)="naytaPysakki()">Hae</button>
+
+<p>
+    {{digitransitService.pysakki}}
+</p>
